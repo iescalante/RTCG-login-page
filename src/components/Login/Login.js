@@ -81,8 +81,8 @@ const Login = () => {
           type="email"
           id="email"
           label="E-Mail"
-          value={inputState.value}
-          isValid={inputState.isValid}
+          value={inputState.emailValue}
+          isValid={inputState.emailValid}
           onChange={(e) => formHandler(e, "EMAIL_INPUT")}
           onBlur={(e) => formHandler(e, "EMAIL_BLUR")}
         />
@@ -91,8 +91,8 @@ const Login = () => {
           type="password"
           id="password"
           label="Password"
-          value={inputState.value}
-          isValid={inputState.isValid}
+          value={inputState.passwordValue}
+          isValid={inputState.passwordValid}
           onChange={(e) => formHandler(e, "PASSWORD_INPUT")}
           onBlur={(e) => formHandler(e, "PASSWORD_BLUR")}
         />
