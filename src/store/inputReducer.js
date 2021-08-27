@@ -19,7 +19,7 @@ export const inputReducer = (state, action) => {
         emailValue: state.emailValue,
         emailValid: state.emailValid,
         passwordValue: action.passwordValue,
-        passwordValid: action.passwordValue.includes("@"),
+        passwordValid: action.passwordValue.trim().length > 6,
       };
     case "PASSWORD_BLUR":
       return {
