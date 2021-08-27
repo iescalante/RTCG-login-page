@@ -1,5 +1,6 @@
 # RTCG-login-page
-Mini Project creating a Login page using Reducers and Context
+Mini Project creating a Login page using Reducers and Context.
+
 Some refactoring was done by myself in order to avoid code repetition.
 
 ## Main
